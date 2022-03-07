@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# `WEST END ADHC`
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  
 
-## Available Scripts
+*What is West End ADHC?*
 
-In the project directory, you can run:
+> West End Adult Day Health Care is a commercial business located in the West End of Louisville, KY. This business is operated by Mary Stanton & Abu Bakr Abu Abdellah
 
-### `npm start`
+  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+*What is this repository?*
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+> This repository holds the code files for the website for West End ADHC.
 
-### `npm test`
+  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<hr>
 
-### `npm run build`
+  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Table of Contents
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. [What is this app?](#id-section1)
 
-### `npm run eject`
+2. [Technologies Used](#id-section2)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. [Notes](#id-section3)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<hr>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+  
 
-## Learn More
+<div  id='id-section1'/>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### What is this app?
 
-### Code Splitting
+  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This *full-stack* application is intended to deploy a front-end website that users can interact with to learn more about West End ADHC, apply to be a client, and routes potential employees to a different platform (Mary Stanton arranged) to apply for jobs. Client applications will be routed to a Google Sheet for ease of access for Mary & Abu Bakr.
 
-### Analyzing the Bundle Size
+  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<hr>
 
-### Making a Progressive Web App
+  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<div  id='id-section2'  />
 
-### Advanced Configuration
+  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Technologies Used
 
-### Deployment
+  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+*  `React.js`
 
-### `npm run build` fails to minify
+*  `CSS3`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+*  `HTML5`
+
+  
+
+<hr>
+
+  
+
+<div  id='id-section3'  />
+
+  
+
+### Notes
