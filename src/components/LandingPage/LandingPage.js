@@ -20,10 +20,16 @@ class LandingPage extends React.Component {
     render() {
         return(
             <>
-                <div>
+                <div className="landing-page-container">
                     <h1>
-                        West End ADHC
+                        Website Wireframe in Progress
                     </h1>
+
+                    <code>
+                        <a href="https://balsamiq.cloud/st8pvvc/p9yvllm/rA5C0" rel="noreferrer">
+                            Click Me!
+                        </a>
+                    </code>
                 </div>
             </>
         )
