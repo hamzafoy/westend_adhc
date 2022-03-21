@@ -3,7 +3,7 @@
 ::::::::::::::::::::::::::::::::::::::::*/
 
 import './App.css';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Routes,Route, Link } from 'react-router-dom';
 import LandingPage from './components/LandingPage/LandingPage';
 import Services from './components/Services/Services';
 import Activities from './components/Activities/Activities';
@@ -18,38 +18,28 @@ import Resources from './components/Resources/Resources';
 function App() {
   return (
     <div className="App">
-      <Router>
+      <BrowserRouter>
 
-        <Switch>
+        <Routes>
 
-          <Route path="/" exact component={
-            () => <LandingPage/>
-          }
+          <Route path="/" element={<LandingPage/>}
           />
 
-          <Route path="/services" exact component={
-            () => <Services/>
-          }
+          <Route path="/services" element={<Services/>}
           />
 
-          <Route path="/activities" exact component={
-            () => <Activities/>
-          }
+          <Route path="/activities" element={<Activities/>}
           />
 
-          <Route path="/careers" exact component={
-            () => <Careers/>
-          }
+          <Route path="/careers" element={<Careers/>}
           />
 
-          <Route path="/resources" exact component={
-            () => <Resources/>
-          }
+          <Route path="/resources" element={<Resources/>}
           />
 
-        </Switch>
+        </Routes>
       
-      </Router>
+      </BrowserRouter>
     </div>
   );
 }
