@@ -1,10 +1,24 @@
-.landing-page-container {
-    min-height: 100vh;
-    width: 100%;
-    background-color: #f8f5f2;
-}
+/*::::::::::::::::::::::::::::::::::::::::
+::::::::::  Mobile Layout CSS  :::::::::::
+::::::::::::::::::::::::::::::::::::::::*/
 
-h1 {
-    padding: 1vh 0;
-    color: black;
+
+
+/*::::::::::::::::::::::::::::::::::::::::
+::::::  Desktop/Laptop Layout CSS  :::::::
+::::::::::::::::::::::::::::::::::::::::*/
+
+@media (min-width: 1280px) {
+
+    .landing-page-container {
+        min-height: 100vh;
+        width: 100%;
+        background-color: #f8f5f2;
+    }
+
+    h1 {
+        padding: 1vh 0;
+        color: black;
+    }
+
 }
