@@ -5,6 +5,7 @@
 import './LandingPage.css';
 import React from 'react';
 import { Link } from 'react-router-dom';
+import weadhclogo from "../../assets/westendadhc-logo.png";
 
 
 
@@ -34,31 +35,31 @@ class LandingPage extends React.Component {
                         </h1>
 
                         <h1>
-                            <Link className="navigation_comms" to="/">
+                            <Link className="navigation_options" to="/">
                                 Home
                             </Link>
                         </h1>
 
                         <h1>
-                            <Link className="navigation_comms" to="/services">
+                            <Link className="navigation_options" to="/services">
                                 Services
                             </Link>
                         </h1>
 
                         <h1>
-                            <Link className="navigation_comms" to="/activities">
+                            <Link className="navigation_options" to="/activities">
                                 Activities
                             </Link>    
                         </h1>
 
                         <h1>
-                            <Link className="navigation_comms" to="/careers">
-                                careers
+                            <Link className="navigation_options" to="/careers">
+                                Careers
                             </Link>
                         </h1>
 
                         <h1>
-                            <Link className="navigation_comms" to="/resources">
+                            <Link className="navigation_options" to="/resources">
                                 Resources
                             </Link>
                         </h1>
@@ -68,6 +69,12 @@ class LandingPage extends React.Component {
                     <section className="navigation_byline">
                         Care In Your Community
                     </section>
+
+                    <img
+                    className="navigation_logo"
+                    alt="Logo"
+                    src={weadhclogo}
+                    />
 
                     <section className="test">
                         

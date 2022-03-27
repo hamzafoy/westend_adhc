@@ -37,7 +37,12 @@
     }
 
     .navigation_comms {
-        color: black;
+        color: #3D3D3D;
+        text-decoration: underline;
+    }
+
+    .navigation_options {
+        color: #3D3D3D;
         text-decoration: none;
     }
 
@@ -48,6 +53,14 @@
         font-size: 1.75em;
         font-weight: 700;
         background-color: #f2b867;
+    }
+
+    .navigation_logo {
+        position: absolute;
+        top: 0.5vh;
+        right: 2vw;
+        height: 24vh;
+        width: 12vw;
     }
 
     .test {
