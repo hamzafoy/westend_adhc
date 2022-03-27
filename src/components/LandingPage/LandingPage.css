@@ -30,7 +30,7 @@
     }
 
     .navigation h1 {
-        margin: 0 1.25vw;
+        margin: 0 0.65vw;
         padding: 1.25vh 0;
         font-family: 'Cutive', serif;
         font-size: 0.85em;
@@ -66,4 +66,15 @@
     .test {
         margin: 3vh 0 0;
     }
+}
+
+@media (min-width: 1500px) {
+
+    .navigation h1 {
+        margin: 0 1.25vw;
+        padding: 1.25vh 0;
+        font-family: 'Cutive', serif;
+        font-size: 0.85em;
+    }
+
 }
