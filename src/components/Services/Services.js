@@ -21,9 +21,8 @@ class Services extends React.Component {
         return(
             <>
                 <div className="landing-page-container">
-                    <h1>
-                        Website Wireframe in Progress
-                    </h1>
+
+                    
 
                     <code>
                         <a href="https://balsamiq.cloud/st8pvvc/p9yvllm/rA5C0" rel="noreferrer">
