@@ -4,6 +4,7 @@
 
 import './LandingPage.css';
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 
 
@@ -25,31 +26,41 @@ class LandingPage extends React.Component {
                     <nav className="navigation">
 
                         <h1>
-                            Call us: (502) 653-7220
+                            Call us: <a className="navigation_comms" href="tel:+15026537220" target="_blank"rel="noreferrer">(502) 653-7220</a>
                         </h1>
 
                         <h1>
-                            Email us: referrals@westendadhc.com
+                            Email us: <a className="navigation_comms" href="mailto:referrals@westendadhc.com" target="_blank" rel="noreferrer">referrals@westendadhc.com</a>
                         </h1>
 
                         <h1>
-                            Home
+                            <Link className="navigation_comms" to="/">
+                                Home
+                            </Link>
                         </h1>
 
                         <h1>
-                            Services
+                            <Link className="navigation_comms" to="/services">
+                                Services
+                            </Link>
                         </h1>
 
                         <h1>
-                            Activities
+                            <Link className="navigation_comms" to="/activities">
+                                Activities
+                            </Link>    
                         </h1>
 
                         <h1>
-                            Careers
+                            <Link className="navigation_comms" to="/careers">
+                                careers
+                            </Link>
                         </h1>
 
                         <h1>
-                            Resources
+                            <Link className="navigation_comms" to="/resources">
+                                Resources
+                            </Link>
                         </h1>
                     
                     </nav>
@@ -58,11 +69,13 @@ class LandingPage extends React.Component {
                         Care In Your Community
                     </section>
 
-                    <code>
-                        <a href="https://balsamiq.cloud/st8pvvc/p9yvllm/rA5C0" rel="noreferrer">
+                    <section className="test">
+                        
+                        <code><a href="https://balsamiq.cloud/st8pvvc/p9yvllm/rA5C0" rel="noreferrer">
                             Click Me!
-                        </a>
-                    </code>
+                        </a></code>
+
+                    </section>
                 </div>
             </>
         )

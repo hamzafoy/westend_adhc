@@ -30,10 +30,15 @@
     }
 
     .navigation h1 {
-        margin: 0 2vw;
+        margin: 0 1.25vw;
         padding: 1.25vh 0;
         font-family: 'Cutive', serif;
         font-size: 0.85em;
+    }
+
+    .navigation_comms {
+        color: black;
+        text-decoration: none;
     }
 
     .navigation_byline {
@@ -42,7 +47,10 @@
         font-family: 'Alike Angular', serif;
         font-size: 1.75em;
         font-weight: 700;
-        background-color: #efa743;
+        background-color: #f2b867;
     }
 
+    .test {
+        margin: 3vh 0 0;
+    }
 }
