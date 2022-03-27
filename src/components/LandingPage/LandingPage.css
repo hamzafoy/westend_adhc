@@ -8,7 +8,7 @@
 ::::::  Desktop/Laptop Layout CSS  :::::::
 ::::::::::::::::::::::::::::::::::::::::*/
 
-@media (min-width: 1280px) {
+@media (min-width: 1100px) {
 
     h1 {
         font-weight: 100;
