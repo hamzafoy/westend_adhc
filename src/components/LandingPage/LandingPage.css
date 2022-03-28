@@ -37,12 +37,12 @@
     }
 
     .navigation_comms {
-        color: #3D3D3D;
+        color: #5a5a5a;
         text-decoration: underline;
     }
 
     .navigation_options {
-        color: #3D3D3D;
+        color: #5a5a5a;
         text-decoration: none;
     }
 
@@ -61,6 +61,12 @@
         right: 2vw;
         height: 24vh;
         width: 12vw;
+    }
+
+    .landing-page_intro {
+        display: flex;
+        flex-direction: column;
+        margin: 10vh 25vw 0;
     }
 
     .test {

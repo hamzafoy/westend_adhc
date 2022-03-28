@@ -76,6 +76,23 @@ class LandingPage extends React.Component {
                     src={weadhclogo}
                     />
 
+                    <aside className="landing-page_intro">
+                        
+                        <h1>
+                            Our Purpose
+                        </h1>
+
+                        <p>
+                            Our purpose at West End Adult Day Healthcare is to dedicate ourselves 
+                            to serving seniors &amp; individuals with disabilites in the West End area 
+                            of Jefferson County which is often overlooked &amp; underserved. We believe 
+                            that providing care is more than just a duty - its a way of life. We strive 
+                            to provide compassionate &amp; genuine service to each and every one of our 
+                            clients.
+                        </p>
+
+                    </aside>
+
                     <section className="test">
                         
                         <code><a href="https://balsamiq.cloud/st8pvvc/p9yvllm/rA5C0" rel="noreferrer">
