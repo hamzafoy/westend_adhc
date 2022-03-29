@@ -79,7 +79,7 @@ class LandingPage extends React.Component {
                     <aside className="landing-page_intro">
                         
                         <h1>
-                            Our Purpose
+                            Our Purpose&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         </h1>
 
                         <p>
@@ -93,13 +93,32 @@ class LandingPage extends React.Component {
 
                     </aside>
 
-                    <section className="test">
-                        
-                        <code><a href="https://balsamiq.cloud/st8pvvc/p9yvllm/rA5C0" rel="noreferrer">
-                            Click Me!
-                        </a></code>
+                    <main className="landing-page_mission">
 
-                    </section>
+                        <h1>
+                            Our Mission
+                        </h1>
+
+                        <p>
+                            We work to be your go-to choice for flexible &amp; customizable adult daycare 
+                            services. Our mission is to promote your integrity &amp; independence through 
+                            our programs. We envision our Adult Daycare Center to model compassionate, 
+                            genuine, &amp; excellent care provision.
+                            <br/><br/>
+                        </p>
+
+                        <p>
+                            We are passionate about assisting adults at their homes as long as possible by 
+                            offering companionship &amp; healthcare monitoring, thus preventing or delaying 
+                            institutionalization.
+                        </p>
+
+                    </main>
+
+                    <footer className="standard-footer">
+
+                    </footer>
+
                 </div>
             </>
         )

@@ -66,40 +66,53 @@
         width: 12vw;
     }
 
-    .landing-page_intro {
+    .landing-page_intro,
+    .landing-page_mission {
         display: flex;
         flex-direction: column;
-        margin: 10vh 50vw 0 7.5vw;
+        margin: 10vh 50vw 0 0;
+        padding-left: 7.5vw;
+        background-color: #fdf3e5;
     }
 
-    .landing-page_intro h1 {
+    .landing-page_mission {
+        align-items: center;
+        margin: 10vh 25vw 0 25vw;
+        padding-left: 0;
+    }
+
+    .landing-page_intro h1,
+    .landing-page_mission h1 {
         color: #5a5a5a;
         font-family: 'Cutive', serif;
         font-size: 2.5em;
         font-weight: 600;
-        text-decoration: underline 5.5px;
-        text-underline-offset: 1.35vh;
+        text-decoration: underline 6.75px;
+        text-underline-offset: 1.25vh;
     }
 
-    .landing-page_intro p {
+    .landing-page_intro p,
+    .landing-page_mission p {
         color: #666666;
         font-family: 'Alike Angular', serif;
         font-size: 1.25em;
         font-weight: 100;
         letter-spacing: 0.1rem;
-        line-height: 1.75rem;
+        line-height: 2.15rem;
     }
 
-    .landing-page_intro p::first-letter {
+    .landing-page_intro p::first-letter,
+    .landing-page_mission p::first-letter {
         float: left;
         padding: 0 2px;
         color: #525252;
+        font-family:Georgia, 'Times New Roman', Times, serif;
         font-size: 2.15em;
         font-weight: 700;
     }
 
-    .test {
-        margin: 3vh 0 0;
+    .standard-footer {
+        height: 15vh;
     }
 }
 
