@@ -26,49 +26,53 @@ class LandingPage extends React.Component {
 
                     <nav className="navigation">
 
-                        <h1>
-                            Call us: <a className="navigation_comms" href="tel:+15026537220" target="_blank"rel="noreferrer">(502) 653-7220</a>
-                        </h1>
+                        <section className="navigation-bar">
 
-                        <h1>
-                            Email us: <a className="navigation_comms" href="mailto:referrals@westendadhc.com" target="_blank" rel="noreferrer">referrals@westendadhc.com</a>
-                        </h1>
+                            <h1>
+                                Call us: <a className="navigation_comms" href="tel:+15026537220" target="_blank"rel="noreferrer">(502) 653-7220</a>
+                            </h1>
 
-                        <h1>
-                            <Link className="navigation_options" to="/">
-                                Home
-                            </Link>
-                        </h1>
+                            <h1>
+                                Email us: <a className="navigation_comms" href="mailto:referrals@westendadhc.com" target="_blank" rel="noreferrer">referrals@westendadhc.com</a>
+                            </h1>
 
-                        <h1>
-                            <Link className="navigation_options" to="/services">
-                                Services
-                            </Link>
-                        </h1>
+                            <h1>
+                                <Link className="navigation_options" to="/">
+                                    Home
+                                </Link>
+                            </h1>
 
-                        <h1>
-                            <Link className="navigation_options" to="/activities">
-                                Activities
-                            </Link>    
-                        </h1>
+                            <h1>
+                                <Link className="navigation_options" to="/services">
+                                    Services
+                                </Link>
+                            </h1>
 
-                        <h1>
-                            <Link className="navigation_options" to="/careers">
-                                Careers
-                            </Link>
-                        </h1>
+                            <h1>
+                                <Link className="navigation_options" to="/activities">
+                                    Activities
+                                </Link>    
+                            </h1>
 
-                        <h1>
-                            <Link className="navigation_options" to="/resources">
-                                Resources
-                            </Link>
-                        </h1>
+                            <h1>
+                                <Link className="navigation_options" to="/careers">
+                                    Careers
+                                </Link>
+                            </h1>
+
+                            <h1>
+                                <Link className="navigation_options" to="/resources">
+                                    Resources
+                                </Link>
+                            </h1>
+
+                        </section>
+
+                        <section className="navigation_byline">
+                        Care In Your Community
+                        </section>
                     
                     </nav>
-
-                    <section className="navigation_byline">
-                        Care In Your Community
-                    </section>
 
                     <img
                     className="navigation_logo"
@@ -104,7 +108,6 @@ class LandingPage extends React.Component {
                             services. Our mission is to promote your integrity &amp; independence through 
                             our programs. We envision our Adult Daycare Center to model compassionate, 
                             genuine, &amp; excellent care provision.
-                            <br/><br/>
                         </p>
 
                         <p>
@@ -116,6 +119,42 @@ class LandingPage extends React.Component {
                     </main>
 
                     <footer className="standard-footer">
+
+                        <section className="footer_content">
+                            Test Filler
+                        </section>
+
+                        <section className="footer_info">
+                            
+                            <iframe
+                                className="footer-info_map"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8869.0861942067!2d-85.63348260030689!3d38.193746753372054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb8df2f350dfb12d9!2sGuiding%20Light%20Islamic%20Center!5e0!3m2!1sen!2sus!4v1648578467478!5m2!1sen!2sus"
+                                width="350"
+                                height="200"
+                                
+                                allowFullScreen=""
+                                aria-hidden="false"
+                                tabIndex="0"
+                                title="West End ADHC Location"
+                            />
+
+                            <h1>
+                               6500 Six Mile Ln, Louisville KY 40218 
+                            </h1>
+
+                            <h1>
+                                <a className="navigation_comms" href="tel:+15026537220" target="_blank"rel="noreferrer">(502) 653-7220</a>
+                            </h1>
+
+                            <h1>
+                                <a className="navigation_comms" href="mailto:referrals@westendadhc.com" target="_blank" rel="noreferrer">referrals@westendadhc.com</a>
+                            </h1>
+                            
+                            <h1>
+                                Open Monday through Saturday, 8:00AM to 6:00PM
+                            </h1>
+
+                        </section>
 
                     </footer>
 
