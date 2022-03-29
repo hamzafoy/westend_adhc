@@ -127,12 +127,12 @@
 
     .footer_info h1 {
         font-family: 'Alike Angular', serif;
-        font-size: 1em;
+        font-size: 0.85em;
         text-align: center;
     }
 
     .footer-info_map {
-        border: double 3px #8da300;
+        border: double 3.25px #8da300;
 
     }
 }
