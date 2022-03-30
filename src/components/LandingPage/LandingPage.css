@@ -73,15 +73,28 @@
         width: 12vw;
     }
 
-    .landing-page_intro,
-    .landing-page_mission {
+    .landing-page_intro {
         display: flex;
-        flex-direction: column;
-        margin: 17.5vh 30vw 0 0;
-        padding-left: 7.5vw;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        margin: 17.5vh 0 0 0;
+    }
+
+    .landing-page_intro-purpose {
+        width: 50%;
+    }
+
+    .landing-page_img {
+        height: 350px;
+        width: 475px;
+        border: double 3.25px #8da300;
+        border-radius: 5%;
     }
 
     .landing-page_mission {
+        display: flex;
+        flex-direction: column;
         align-items: center;
         margin: 20vh 0 10vh 0;
         padding: 0 25vw;
