@@ -2,26 +2,149 @@
 ::::::::::  Mobile Layout CSS  :::::::::::
 ::::::::::::::::::::::::::::::::::::::::*/
 
+body {
+    background-color: #fcf2e6;
+}
 
+h1 {
+    font-weight: 100;
+}
+
+.landing-page-container {
+    min-height: 100vh;
+    width: 100%;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    background-color: none;
+    margin: 5vh 0 0;
+}
+
+.navigation-bar {
+    display: flex;
+    flex-direction: column;
+    padding: 1vh 0 0;
+    background-color: #efa743;
+}
+
+.navigation h1 {
+    margin: 0 0.65vw;
+    padding: 1.25vh 0;
+    color: #5a5a5a;
+    font-family: 'Cutive', serif;
+    font-size: 0.85em;
+    text-align: center;
+}
+
+.navigation_byline {
+    margin: 0 0 0.25vh;
+    padding: 1.5vh 0;
+    color: #5a5a5a;
+    font-family: 'Alike Angular', serif;
+    font-size: 1.75em;
+    font-weight: 700;
+    text-align: center;
+    background-color: #f2b867;
+}
+
+.navigation_logo {
+    display: block;
+    margin: 0 auto;
+    height: 154px;
+    width: 128px;
+}
+
+.landing-page_intro {
+    margin: 10vh 0 0 0;
+}
+
+.landing-page_mission {
+    margin: 10vh 0 10vh 0;
+}
+
+.landing-page_intro-purpose,
+.landing-page_mission {
+    padding: 0 2.5vw;
+}
+
+.landing-page_intro h1,
+.landing-page_mission h1 {
+    color: #5a5a5a;
+    font-family: 'Cutive', serif;
+    font-size: 1.5em;
+    font-weight: 600;
+    text-decoration: underline 3.75px;
+    text-underline-offset: 1.25vh;
+}
+
+.landing-page_intro p,
+.landing-page_mission p {
+    color: #666666;
+    font-family: 'Alike Angular', serif;
+    font-size: 0.95em;
+    font-weight: 100;
+    letter-spacing: 0.025rem;
+    line-height: 1.55rem;
+}
+
+.landing-page_img {
+    display: block;
+    height: 225px;
+    width: 350px;
+    margin: 0 auto;
+    border: double 3.25px #8da300;
+    border-radius: 5%;
+}
+
+.standard-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2.5vh 0;
+    background-color: #cce6a2;
+}
+
+.footer_content {
+    margin: 0 0 0 5vw;
+    font-family: 'Alike Angular', serif;
+    line-height: 1.45em;
+}
+
+.footer_content p {
+    font-size: 0.85em;
+}
+
+.footer_info h1 {
+    margin: 0 0 1.75vh;
+    font-family: 'Cutive', serif;
+    font-size: 1.25em;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.footer-info_map {
+    display: block;
+    margin: 0 auto 2.25vh;
+    border: double 3.25px #8da300;
+}
+
+.footer_info p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-family: 'Alike Angular', serif;
+    font-size: 0.85em;
+    line-height: 1.45em;
+    text-align: center;
+}
 
 /*::::::::::::::::::::::::::::::::::::::::
 ::::::  Desktop/Laptop Layout CSS  :::::::
 ::::::::::::::::::::::::::::::::::::::::*/
 
 @media (min-width: 1100px) {
-
-    body {
-        background-color: #fcf2e6;
-    }
-
-    h1 {
-        font-weight: 100;
-    }
-
-    .landing-page-container {
-        min-height: 100vh;
-        width: 100%;
-    }
 
     .navigation {
         display: flex;
@@ -83,6 +206,7 @@
 
     .landing-page_intro-purpose {
         width: 50%;
+        padding-left: 3.75vw;
     }
 
     .landing-page_img {

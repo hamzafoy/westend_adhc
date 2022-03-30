@@ -72,14 +72,16 @@ class LandingPage extends React.Component {
                         <section className="navigation_byline">
                         Care In Your Community
                         </section>
+
+                        <img
+                        className="navigation_logo"
+                        alt="Logo"
+                        src={weadhclogo}
+                        />
                     
                     </nav>
 
-                    <img
-                    className="navigation_logo"
-                    alt="Logo"
-                    src={weadhclogo}
-                    />
+                    
 
                     <aside className="landing-page_intro">
 
@@ -150,7 +152,7 @@ class LandingPage extends React.Component {
                             <iframe
                                 className="footer-info_map"
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3134.8612629986437!2d-85.8221930848122!3d38.213117579681914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8869131056dafd91%3A0x9a57ec3ab9db98e5!2s3847%20Cane%20Run%20Rd%2C%20Louisville%2C%20KY%2040211!5e0!3m2!1sen!2sus!4v1648584440914!5m2!1sen!2sus"
-                                width="400"
+                                width="375"
                                 height="175"
                                 allowFullScreen=""
                                 aria-hidden="false"
