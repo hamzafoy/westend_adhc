@@ -121,10 +121,20 @@ class LandingPage extends React.Component {
                     <footer className="standard-footer">
 
                         <section className="footer_content">
-                            Test Filler
+                            
+                            <p>
+                                West End Adult Healthcare is a privately owned company providing customizable 
+                                adult daycare for those in the West End. Headed by a RN nurse, we tailor our 
+                                services to meet the needs of each individual with an intention to focus on 
+                                underserved populations. We augment the basic suite of services with additional 
+                                aid including case management &amp; medical transportation.
+                            </p>
+
                         </section>
 
                         <section className="footer_info">
+
+                            <h1>Location &amp; Info</h1>
                             
                             <iframe
                                 className="footer-info_map"
@@ -138,23 +148,23 @@ class LandingPage extends React.Component {
                                 title="West End ADHC Location"
                             />
 
-                            <h1>
+                            <p>
                                3847 Cane Run Rd, Louisville KY 40211 
-                            </h1>
+                            </p>
 
-                            <h1>
+                            <p>
                                 <a className="navigation_comms" href="tel:+15026537220" target="_blank"rel="noreferrer">(502) 653-7220</a>
-                            </h1>
+                            </p>
 
-                            <h1>
+                            <p>
                                 <a className="navigation_comms" href="mailto:referrals@westendadhc.com" target="_blank" rel="noreferrer">referrals@westendadhc.com</a>
-                            </h1>
+                            </p>
                             
-                            <h1>
+                            <p>
                                 Open Monday - Friday 8:30AM to 5:00PM
                                 <br/>
                                 Saturday by Appointment, Closed Sundays
-                            </h1>
+                            </p>
 
                         </section>
 
