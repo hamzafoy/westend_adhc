@@ -18,16 +18,27 @@ class LandingPage extends React.Component {
 
     constructor(props) {
         super(props)
+        this.state = {
+            collapsed: false
+        }
+        this.handleChange = this.handleChange.bind(this)
+    }
+
+    handleChange = event => {
+        this.setState(prevState => ({
+            collapsed: !prevState.collapsed
+        }))
     }
 
     render() {
-        return(
-            <>
-                <div className="landing-page-container">
+        const hamburger = (
+            <p className="hamburger_icon" onClick={this.handleChange}>
+                &#8803;
+            </p>
+        );
 
-                    <nav className="navigation">
-
-                        <section className="navigation-bar">
+        const navbar = (
+            <section className="navigation-bar">
 
                             <h1>
                                 Call us: <a className="navigation_comms" href="tel:+15026537220" target="_blank"rel="noreferrer">(502) 653-7220</a>
@@ -68,6 +79,17 @@ class LandingPage extends React.Component {
                             </h1>
 
                         </section>
+        )
+
+        return(
+            <>
+                <div className="landing-page-container">
+
+                    <nav className="navigation">
+
+                        {this.state.collapsed ? null : navbar || window.innerWidth > 1000 ? navbar : null}
+
+                        {window.innerWidth < 1000 ? hamburger : null}
 
                         <section className="navigation_byline">
                         Care In Your Community
