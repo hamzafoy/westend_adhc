@@ -30,6 +30,16 @@ h1 {
     background-color: #efa743;
 }
 
+.navigation_comms {
+    color: #5a5a5a;
+    text-decoration: underline;
+}
+
+.navigation_options {
+    color: #5a5a5a;
+    text-decoration: none;
+}
+
 .navigation h1 {
     margin: 0 0.65vw;
     padding: 1.25vh 0;
