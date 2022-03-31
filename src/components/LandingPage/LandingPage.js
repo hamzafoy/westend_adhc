@@ -87,7 +87,7 @@ class LandingPage extends React.Component {
 
                     <nav className="navigation">
 
-                        {this.state.collapsed ? null : navbar || window.innerWidth > 1000 ? navbar : null}
+                        {(this.state.collapsed ? null : navbar && window.innerWidth < 1000) || window.innerWidth > 1000 ? navbar : null}
 
                         {window.innerWidth < 1000 ? hamburger : null}
 
