@@ -2,12 +2,101 @@
 ::::::::::  Mobile Layout CSS  :::::::::::
 ::::::::::::::::::::::::::::::::::::::::*/
 
+.activities-content-aside {
+    margin: 10vh 0 10vh 0;
+}
+
+.activities-content-aside_content {
+    padding: 0 2.5vw;
+}
+
+.activities-content-aside h1 {
+    color: #5a5a5a;
+    font-family: 'Cutive', serif;
+    font-size: 1.5em;
+    font-weight: 600;
+    text-decoration: underline 3.75px;
+    text-underline-offset: 1.25vh;
+}
+
+.activities-content-aside p {
+    color: #666666;
+    font-family: 'Alike Angular', serif;
+    font-size: 0.95em;
+    font-weight: 100;
+    letter-spacing: 0.025rem;
+    line-height: 1.55rem;
+}
+
+.activities-content-aside_img {
+    display: block;
+    height: 225px;
+    width: 350px;
+    margin: 0 auto;
+    border: double 3.25px #8da300;
+    border-radius: 5%;
+}
+
 
 
 /*::::::::::::::::::::::::::::::::::::::::
 ::::::  Desktop/Laptop Layout CSS  :::::::
 ::::::::::::::::::::::::::::::::::::::::*/
+@media (min-width: 1100px) {
 
-@media (min-width: 1280px) {
+    .activities-content-aside {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        margin: 17.5vh 0 17.5vh 0;
+    }
 
+    .activities-content-aside_content {
+        width: 50%;
+        padding-left: 3.75vw;
+    }
+
+    .activities-content-aside_img {
+        height: 375px;
+        width: 475px;
+        border: double 3.25px #8da300;
+        border-radius: 5%;
+    }
+
+    .activities-content-aside h1 {
+        color: #5a5a5a;
+        font-family: 'Cutive', serif;
+        font-size: 2.5em;
+        font-weight: 600;
+        text-decoration: underline 6.75px;
+        text-underline-offset: 1.25vh;
+    }
+
+    .activities-content-aside p {
+        color: #666666;
+        font-family: 'Alike Angular', serif;
+        font-size: 1.25em;
+        font-weight: 100;
+        letter-spacing: 0.1rem;
+        line-height: 2.15rem;
+    }
+
+    .activities-content-aside p::first-letter {
+        float: left;
+        padding: 0 2px;
+        color: #525252;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 2.15em;
+        font-weight: 700;
+    }
+}
+
+
+
+@media (min-width: 1500px) {
+
+    .activities-content-aside {
+        margin: 17.5vh 50vw 17.5vh 0;
+    }
 }

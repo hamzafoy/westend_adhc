@@ -6,6 +6,7 @@ import './Activities.css';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import weadhclogo from "../../assets/westendadhc-logo.png";
+import adhcstock from "../../assets/adhc_stock.jpg";
 
 
 
@@ -101,6 +102,32 @@ class Activities extends React.Component {
                     />
                 
                 </nav>
+
+                <aside className="activities-content-aside">
+
+                    <section className="activities-content-aside_content">
+
+                        <h1>
+                            Activities&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        </h1>
+
+                        <p>
+                        Activities are planned according to the population served &amp; the interests of the 
+                        participants. Our clients can choose from a wide variety of activities with evaluation occurring 
+                        regularly to ensure clients' needs are fully met. Each client will have 
+                        a recreation therapy assessment completed within 30 days of joining us. This will 
+                        assist staff in planning activities according to both interest and ability.
+                        </p>
+
+                    </section>
+
+                    <img
+                    className="activities-content-aside_img"
+                    alt="Elderly client with a nurse"
+                    src={adhcstock}
+                    />
+
+                </aside>
 
                 <footer className="standard-footer">
 
