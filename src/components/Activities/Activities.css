@@ -2,7 +2,8 @@
 ::::::::::  Mobile Layout CSS  :::::::::::
 ::::::::::::::::::::::::::::::::::::::::*/
 
-.activities-content-aside {
+.activities-content-aside,
+.activities-main {
     margin: 10vh 0 10vh 0;
 }
 
@@ -10,7 +11,8 @@
     padding: 0 2.5vw;
 }
 
-.activities-content-aside h1 {
+.activities-content-aside h1,
+.activities-main_benefits h1 {
     color: #5a5a5a;
     font-family: 'Cutive', serif;
     font-size: 1.5em;
@@ -37,6 +39,19 @@
     border-radius: 5%;
 }
 
+.activities-main_benefits h1 {
+    text-align: center;
+}
+
+.activities-main_benefits-list {
+    display: flex;
+    flex-direction: column;
+    margin: 5vh 7.5vw 0;
+    padding-inline-start: 20px;
+    font-family: 'Alike Angular', serif;
+    font-size: 0.9em;
+}
+
 
 
 /*::::::::::::::::::::::::::::::::::::::::
@@ -48,6 +63,7 @@
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+        align-items: center;
         width: 100%;
         margin: 17.5vh 0 17.5vh 0;
     }
@@ -64,7 +80,8 @@
         border-radius: 5%;
     }
 
-    .activities-content-aside h1 {
+    .activities-content-aside h1,
+    .activities-main_benefits h1 {
         color: #5a5a5a;
         font-family: 'Cutive', serif;
         font-size: 2.5em;
@@ -89,6 +106,19 @@
         font-family:Georgia, 'Times New Roman', Times, serif;
         font-size: 2.15em;
         font-weight: 700;
+    }
+
+    .activities-main_benefits-list {
+        column-count: 2;
+        height: 100px;
+        width: 100%;
+        margin: 5vh 0 0;
+        padding-inline-start: 0;
+        font-size: 1.25em;
+    }
+
+    .activities-main_benefits-list li {
+        color: red;
     }
 }
 

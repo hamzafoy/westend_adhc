@@ -6,7 +6,7 @@ import './Activities.css';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import weadhclogo from "../../assets/westendadhc-logo.png";
-import adhcstock from "../../assets/adhc_stock.jpg";
+import adhcstock from "../../assets/adhc_stock_2.jpg";
 
 
 
@@ -128,6 +128,42 @@ class Activities extends React.Component {
                     />
 
                 </aside>
+
+                <main className="activities-main">
+
+                    <section className="activities-main_benefits">
+                        
+                        <h1>
+                            Benefits of Activities
+                        </h1>
+
+                        <ul className="activities-main_benefits-list">
+
+                            <li>
+                                Increase in socialization &amp; communication skills
+                            </li>
+
+                            <li>
+                                Maintain physical fitness, range of motion, &amp; muscle tone
+                            </li>
+
+                            <li>
+                                Maintain memory, decision making, &amp; cognitive abilities
+                            </li>
+
+                            <li>
+                                Provide structure &amp; choices for participation
+                            </li>
+
+                            <li>
+                                Instill a sense of accomplishment, success, &amp; increased self-esteem
+                            </li>
+
+                        </ul>
+
+                    </section>
+
+                </main>
 
                 <footer className="standard-footer">
 
