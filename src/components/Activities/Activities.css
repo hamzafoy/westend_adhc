@@ -109,16 +109,17 @@
     }
 
     .activities-main_benefits-list {
+        display: block;
         column-count: 2;
-        height: 100px;
-        width: 100%;
-        margin: 5vh 0 0;
-        padding-inline-start: 0;
+        column-gap: 35px;
+        width: 93.5%;
+        margin: 5vh auto 0;
         font-size: 1.25em;
     }
 
     .activities-main_benefits-list li {
-        color: red;
+        color: #666666;
+        font-family: 'Alike Angular', serif;
     }
 }
 
