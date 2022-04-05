@@ -3,22 +3,98 @@
 ::::::::::::::::::::::::::::::::::::::::*/
 
 .careers-content {
-    margin: 33vh 0 33vh 0;
+    margin: 10vh 0 10vh 0;
 }
 
 .careers-content_headline {
+    margin: 0 0 3.5vh;
     color: #5a5a5a;
     font-family: 'Cutive', serif;
-    font-size: 1.5em;
+    font-size: 1.35em;
     font-weight: 600;
+    text-align: center;
     text-decoration: underline 3.75px;
     text-underline-offset: 1.25vh;
 }
+
+.careers-content_info {
+    margin: 0 8vw 5.5vh;
+    color: #666666;
+    font-family: 'Alike Angular', serif;
+    font-size: 0.95em;
+    font-weight: 100;
+    line-height: 1.55rem;
+    text-align: justify;
+}
+
+.careers-content_cards {
+    display: block;
+}
+
+.careers-content__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+    margin: 2.5vh auto;
+    border: 2px black solid;
+}
+
+.careers-content__card h1 {
+    margin: 1vh 0 1.5vh;
+    color: #5a5a5a;
+    font-family: 'Cutive', serif;
+    font-size: 1.25em;
+    font-weight: 600;
+    text-align: center;
+}
+
+.careers-content__card p {
+    color: #666666;
+    font-family: 'Alike Angular', serif;
+}
+
+
 
 /*::::::::::::::::::::::::::::::::::::::::
 ::::::  Desktop/Laptop Layout CSS  :::::::
 ::::::::::::::::::::::::::::::::::::::::*/
 
-@media (min-width: 1280px) {
+@media (min-width: 1100px) {
+
+    .careers-content_headline {
+        font-size: 2.5em;
+    }
+
+    .careers-content_info {
+        margin: 0 13.5vw 5.5vh;
+        font-size: 1.15em;
+        line-height: 1.75rem;
+    }
+
+    .careers-content_cards {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .careers-content__card {
+        width: 33%;
+        margin: 3.5vh auto;
+    }
+
+}
+
+@media (min-width: 1500px) {
+
+    .careers-content_info {
+        margin: 0 17.5vw 5.5vh;
+        line-height: 1.55rem;
+    }
     
+    .careers-content__card {
+        width: 25%;
+        margin: 3.5vh auto;
+    }
+
 }
