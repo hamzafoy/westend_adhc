@@ -48,8 +48,12 @@
     flex-direction: column;
     margin: 5vh 7.5vw 0;
     padding-inline-start: 20px;
-    font-family: 'Alike Angular', serif;
     font-size: 0.9em;
+}
+
+.activities-main_benefits-list li {
+    font-family: 'Alike Angular', serif;
+    list-style-type: circle;
 }
 
 

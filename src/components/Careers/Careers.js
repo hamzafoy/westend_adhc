@@ -101,6 +101,14 @@ class Careers extends React.Component {
                     
                     </nav>
 
+                    <main className="careers-content">
+
+                        <h1 className="careers-content_headline">
+                            Careers at West End ADHC
+                        </h1>
+
+                    </main>
+
                     <footer className="standard-footer">
 
                         <section className="footer_content">
