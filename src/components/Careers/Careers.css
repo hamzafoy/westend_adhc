@@ -36,8 +36,9 @@
     flex-direction: column;
     align-items: center;
     width: 75%;
-    margin: 2.5vh auto;
-    border: 2px black solid;
+    margin: 7.5vh auto;
+    background-color: #CCE6A2;
+    border: 6px #8da300 double;
 }
 
 .careers-content__card h1 {

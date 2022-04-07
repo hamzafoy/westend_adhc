@@ -290,6 +290,7 @@ h1 {
         margin: 0 0 0 5vw;
         font-family: 'Alike Angular', serif;
         line-height: 1.85em;
+        color: #666666;
     }
 
     .footer_content p {
@@ -306,6 +307,7 @@ h1 {
         font-size: 1.45em;
         text-align: center;
         text-decoration: underline;
+        color: #5a5a5a;
     }
 
     .footer-info_map {
@@ -321,6 +323,7 @@ h1 {
         font-size: 0.85em;
         line-height: 1.45em;
         text-align: center;
+        color: #666666;
     }
 }
 
