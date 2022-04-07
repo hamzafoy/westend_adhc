@@ -45,7 +45,7 @@ class Activities extends React.Component {
                 </h1>
 
                 <h1>
-                    Email us: <a className="navigation_comms" href="mailto:referrals@westendadhc.com" target="_blank" rel="noreferrer">referrals@westendadhc.com</a>
+                    Email us: <a className="navigation_comms" href="mailto:info@westendadhc.com" target="_blank" rel="noreferrer">info@westendadhc.com</a>
                 </h1>
 
                 <h1>
@@ -274,7 +274,7 @@ class Activities extends React.Component {
                         </p>
 
                         <p>
-                            <a className="navigation_comms" href="mailto:referrals@westendadhc.com" target="_blank" rel="noreferrer">referrals@westendadhc.com</a>
+                            <a className="navigation_comms" href="mailto:info@westendadhc.com" target="_blank" rel="noreferrer">info@westendadhc.com</a>
                         </p>
                         
                         <p>
