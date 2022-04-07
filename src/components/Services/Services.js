@@ -111,7 +111,7 @@ class Services extends React.Component {
                                 adult daycare for those in the West End. Headed by a RN nurse, we tailor our 
                                 services to meet the needs of each individual with an intention to focus on 
                                 underserved populations. We augment the basic suite of services with additional 
-                                aid including case management &amp; medical transportation.
+                                aid including case management &amp; non-medical transportation.
                             </p>
 
                         </section>
