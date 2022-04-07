@@ -165,6 +165,77 @@ class Activities extends React.Component {
 
                 </main>
 
+                <aside className="activities-content-aside content-list">
+
+                    <h1 className="activities-list_headline">
+                        What Activities We Offer
+                    </h1>
+
+                    <section className="activities-list_options">
+
+                        <article className="activities-list_option">
+
+                            <h1>
+                                Community Outings
+                            </h1>
+
+                            <p>
+                                Staff may take groups of participants on various outings such 
+                                picnics at local parks, visits to museums, &amp; shopping. 
+                                Participants' limitations &amp; interests are taken into 
+                                consideration for outings with transportation provided.
+                            </p>
+
+                        </article>
+
+                        <article className="activities-list_option">
+
+                            <h1>
+                                Musical Programs
+                            </h1>
+
+                            <p>
+                                Staff promote musical therapy for clients who have an interest 
+                                in it. There are also karaoke that we do in group gatherings.
+                            </p>
+
+                        </article>
+
+                        <article className="activities-list_option">
+
+                            <h1>
+                                Cognitive Programs
+                            </h1>
+
+                            <p>
+                                There are a number of methods to aid in cognitive improvement 
+                                and maintenance. We have group activities revolving around 
+                                reminiscence, discussion on current events, &amp; interactive 
+                                games. We also commonly play trivia &amp; word games with clients.
+                            </p>
+
+                        </article>
+
+                        <article className="activities-list_option">
+
+                            <h1>
+                                Fine Motor Activities
+                            </h1>
+
+                            <p>
+                                A number of activities involve the improvement and sustaining 
+                                of fine motor function. These include art therapy classes, crafts, 
+                                &amp; horticulture. These activities give variety to the lives of 
+                                our clients &amp; give an opportunity to feel recognized and to 
+                                support one another.
+                            </p>
+
+                        </article>
+
+                    </section>
+
+                </aside>
+
                 <footer className="standard-footer">
 
                     <section className="footer_content">

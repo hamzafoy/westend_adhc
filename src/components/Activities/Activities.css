@@ -56,6 +56,49 @@
     list-style-type: circle;
 }
 
+.activities-list_headline {
+    margin: 0 0 7.5vh;
+    color: #5a5a5a;
+    text-align: center;
+}
+
+.activities-list_options {
+    display: flex;
+    flex-direction: column;
+}
+
+.activities-list_option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3.75vh 10vw;
+    padding: 5vh 2.5vw;
+    background-color: #CCE6A2;
+    border: 6px #8da300 double;
+}
+
+.activities-list_option h1 {
+    margin: 1vh 0 1.5vh;
+    color: #5a5a5a;
+    font-family: 'Cutive', serif;
+    font-size: 1.25em;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    text-underline-offset: 0;
+}
+
+.activities-list_option p {
+    padding: 0 4.5vw;
+    color: #666666;
+    font-family: 'Alike Angular', serif;
+    text-align: justify;
+}
+
+.activities-list_option p::first-letter {
+    float: none;
+}
+
 
 
 /*::::::::::::::::::::::::::::::::::::::::
@@ -85,7 +128,8 @@
     }
 
     .activities-content-aside h1,
-    .activities-main_benefits h1 {
+    .activities-main_benefits h1,
+    .activities-list_headline {
         color: #5a5a5a;
         font-family: 'Cutive', serif;
         font-size: 2.5em;
@@ -124,6 +168,53 @@
     .activities-main_benefits-list li {
         color: #666666;
         font-family: 'Alike Angular', serif;
+    }
+
+    .content-list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .activities-list_options {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    
+    .activities-list_option {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 25%;
+        margin: 3.75vh 1vw;
+        padding: 3vh 1.5vw;
+    }
+
+    .activities-list_option h1 {
+        margin: 1vh 0 1.5vh;
+        color: #5a5a5a;
+        font-family: 'Cutive', serif;
+        font-size: 1.25em;
+        font-weight: 600;
+        text-align: center;
+        text-decoration: none;
+        text-underline-offset: 0;
+    }
+
+    .activities-list_option p {
+        padding: 0 1.75vw;
+        color: #666666;
+        font-family: 'Alike Angular', serif;
+        font-size: 0.95em;
+    }
+    
+    .activities-list_option p::first-letter {
+        float: none;
+        padding: unset;
+        font-size: unset;
+        font-weight: unset;
     }
 }
 
