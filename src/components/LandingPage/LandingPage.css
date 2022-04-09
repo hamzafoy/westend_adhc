@@ -27,23 +27,23 @@ h1 {
     display: flex;
     flex-direction: column;
     padding: 1vh 0 0;
-    background-color: #efa743;
+    background-color: #8FC73C;
 }
 
 .navigation_comms {
-    color: #5a5a5a;
+    color: #FAE1B3;
     text-decoration: underline;
 }
 
 .navigation_options {
-    color: #5a5a5a;
+    color: #FAE1B3;
     text-decoration: none;
 }
 
 .navigation h1 {
     margin: 0 0.65vw;
     padding: 1.25vh 0;
-    color: #5a5a5a;
+    color: #FAE1B3;
     font-family: 'Cutive', serif;
     font-size: 0.85em;
     text-align: center;
@@ -57,7 +57,7 @@ h1 {
     font-size: 1.75em;
     font-weight: 700;
     text-align: center;
-    background-color: #f2b867;
+    background-color: #cce6a2;
 }
 
 .navigation_logo {
@@ -154,7 +154,8 @@ h1 {
     margin-block-start: 0;
     margin-block-end: 0;
     padding: 1.75vh 0;
-    background-color: #efa743;
+    background-color: #8FC73C;
+    color: #FAE1B3;
     text-align: center;
 }
 
@@ -169,7 +170,6 @@ h1 {
     .navigation {
         display: flex;
         flex-direction: column;
-        background-color: #efa743;
         margin: 5vh 0 0;
     }
 
@@ -182,18 +182,15 @@ h1 {
     .navigation h1 {
         margin: 0 0.65vw;
         padding: 1.25vh 0;
-        color: #5a5a5a;
         font-family: 'Cutive', serif;
         font-size: 0.85em;
     }
 
     .navigation_comms {
-        color: #5a5a5a;
         text-decoration: underline;
     }
 
     .navigation_options {
-        color: #5a5a5a;
         text-decoration: none;
     }
 
@@ -205,7 +202,7 @@ h1 {
         font-size: 1.75em;
         font-weight: 700;
         text-align: center;
-        background-color: #f2b867;
+        background-color: #cce6a2;
     }
 
     .navigation_logo {
