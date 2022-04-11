@@ -51,6 +51,7 @@
 }
 
 .careers-content__card p {
+    padding: 0 3vw;
     color: #666666;
     font-family: 'Alike Angular', serif;
 }

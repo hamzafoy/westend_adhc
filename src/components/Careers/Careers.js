@@ -120,7 +120,7 @@ class Careers extends React.Component {
                             <article className="careers-content__card">
 
                                 <h1>
-                                    CNA
+                                    Caregiver
                                 </h1>
 
                                 <svg width="54" height="54" stroke-width="1" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -130,7 +130,7 @@ class Careers extends React.Component {
                                 </svg>
 
                                 <p>
-                                    This role is for CNA
+                                    An at-home personal care attendant that assists in meeting the health, safety, &amp; well-being needs of the participant.
                                 </p>
 
                             </article>
@@ -138,7 +138,7 @@ class Careers extends React.Component {
                             <article className="careers-content__card">
 
                                 <h1>
-                                    Medical Van Driver
+                                    Care Coordinator
                                 </h1>
 
                                 <svg width="54" height="54" stroke-width="1" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -148,7 +148,8 @@ class Careers extends React.Component {
                                 </svg>
 
                                 <p>
-                                    This role is for MVD
+                                    This is a liaison position between participants, caregivers, &amp; West End residents. They ensure smooth transition 
+                                    into the program &amp; coordinate the needs of the participants &amp; caregivers.
                                 </p>
 
                             </article>
@@ -166,7 +167,7 @@ class Careers extends React.Component {
                                 </svg>
 
                                 <p>
-                                    This role is for Caregiver
+                                    An at-home personal care attendant that assists in meeting the health, safety, &amp; well-being needs of the participant.
                                 </p>
 
                             </article>
@@ -174,7 +175,7 @@ class Careers extends React.Component {
                             <article className="careers-content__card">
 
                                 <h1>
-                                    Case Manager
+                                    Care Coordinator
                                 </h1>
 
                                 <svg width="54" height="54" stroke-width="1" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -184,7 +185,8 @@ class Careers extends React.Component {
                                 </svg>
 
                                 <p>
-                                    This role is for Case Mgr
+                                    This is a liaison position between participants, caregivers, &amp; West End residents. They ensure smooth transition 
+                                    into the program &amp; coordinate the needs of the participants &amp; caregivers.
                                 </p>
 
                             </article>
