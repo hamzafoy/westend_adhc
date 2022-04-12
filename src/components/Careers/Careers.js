@@ -133,6 +133,8 @@ class Careers extends React.Component {
                                     An at-home personal care attendant that assists in meeting the health, safety, &amp; well-being needs of the participant.
                                 </p>
 
+                                <a className="careers__link" href="https://westendadhc.caresmartz360.com/prospectivecaregiver/caregiverapplicantform.aspx" rel="noreferrer" target="_blank">Apply Here</a>
+
                             </article>
 
                             <article className="careers-content__card">
@@ -169,6 +171,8 @@ class Careers extends React.Component {
                                 <p>
                                     An at-home personal care attendant that assists in meeting the health, safety, &amp; well-being needs of the participant.
                                 </p>
+
+                                <a className="careers__link" href="https://westendadhc.caresmartz360.com/prospectivecaregiver/caregiverapplicantform.aspx" rel="noreferrer" target="_blank">Apply Here</a>
 
                             </article>
 

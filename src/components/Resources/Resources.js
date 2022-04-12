@@ -102,6 +102,10 @@ class Resources extends React.Component {
                     
                     </nav>
 
+                    <main className="resources-content">
+                        
+                    </main>
+
                     <footer className="standard-footer">
 
                         <section className="footer_content">

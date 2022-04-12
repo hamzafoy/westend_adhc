@@ -42,7 +42,7 @@
 }
 
 .careers-content__card h1 {
-    margin: 1vh 0 1.5vh;
+    margin: 1.75vh 0 1.5vh;
     color: #5a5a5a;
     font-family: 'Cutive', serif;
     font-size: 1.25em;
@@ -54,6 +54,12 @@
     padding: 0 3vw;
     color: #666666;
     font-family: 'Alike Angular', serif;
+}
+
+.careers__link {
+    padding: 0 0 1.5vh;
+    font-family: 'Cutive', serif;
+    font-size: 0.75em;
 }
 
 
@@ -84,8 +90,9 @@
         width: 33%;
         margin: 3.5vh auto;
     }
-
 }
+
+
 
 @media (min-width: 1500px) {
 

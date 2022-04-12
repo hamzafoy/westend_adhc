@@ -209,6 +209,7 @@
         font-size: 0.95em;
         text-align: unset;
         letter-spacing: unset;
+        line-height: unset;
     }
     
     .activities-list_option p::first-letter {
