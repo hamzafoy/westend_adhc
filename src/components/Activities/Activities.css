@@ -73,8 +73,8 @@
     align-items: center;
     margin: 3.75vh 10vw;
     padding: 5vh 2.5vw;
-    background-color: #CCE6A2;
-    border: 6px #8da300 double;
+    background-color: #f4cea0;
+    border: 6px #efbb7d double;
 }
 
 .activities-list_option h1 {
@@ -92,7 +92,6 @@
     padding: 0 4.5vw;
     color: #666666;
     font-family: 'Alike Angular', serif;
-    text-align: justify;
 }
 
 .activities-list_option p::first-letter {
@@ -208,6 +207,8 @@
         color: #666666;
         font-family: 'Alike Angular', serif;
         font-size: 0.95em;
+        text-align: unset;
+        letter-spacing: unset;
     }
     
     .activities-list_option p::first-letter {
