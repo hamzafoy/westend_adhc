@@ -47,31 +47,35 @@ class Form extends React.Component {
 
         return(
 
-            <form onSubmit={this.handleSubmit}>
+            <div className="form-container">
 
-                <label>
-                    Name: 
-                    <input placeholder="Enter your Name" name="name" type="text" value={name} onChange={this.handleChange}/>
-                </label>
+                <form onSubmit={this.handleSubmit}>
 
-                <label>
-                    Email:
-                    <input placeholder="Enter your Email" name="email" type="email" value={email} onChange={this.handleChange}/>
-                </label>
+                    <label>
+                        Name: 
+                        <input placeholder="Enter your Name" name="name" type="text" value={name} onChange={this.handleChange}/>
+                    </label>
 
-                <label>
-                    Phone Number:
-                    <input placeholder="Enter your Phone Number" name="phone_number" type="tel" value={phone_number} onChange={this.handleChange}/>
-                </label>
+                    <label>
+                        Email:
+                        <input placeholder="Enter your Email" name="email" type="email" value={email} onChange={this.handleChange}/>
+                    </label>
 
-                <label>
-                    What service are you requesting?:
-                    <input placeholder="What service would you like to request?" name="service_requested" type="text" value={service_requested} onChange={this.handleChange}/>
-                </label>
+                    <label>
+                        Phone Number:
+                        <input placeholder="Enter your Phone Number" name="phone_number" type="tel" value={phone_number} onChange={this.handleChange}/>
+                    </label>
 
-                <input type="submit" value="Submit" />
+                    <label>
+                        What service are you requesting?:
+                        <input placeholder="What service would you like to request?" name="service_requested" type="text" value={service_requested} onChange={this.handleChange}/>
+                    </label>
 
-            </form>
+                    <input className="form-button_submit" type="submit" value="Submit" />
+
+                </form>
+
+            </div>
 
         );
 
