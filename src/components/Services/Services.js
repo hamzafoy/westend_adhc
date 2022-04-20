@@ -6,6 +6,7 @@ import './Services.css';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import weadhclogo from "../../assets/westendadhc-logo.png";
+import Form from "../Form/Form";
 
 
 
@@ -101,6 +102,12 @@ class Services extends React.Component {
                         />
                     
                     </nav>
+
+                    <main className="services-content">
+
+                        <Form/>
+
+                    </main>
 
                     <footer className="standard-footer">
 
