@@ -3,7 +3,7 @@
 ::::::::::::::::::::::::::::::::::::::::*/
 
 .resources-content {
-    min-height: 100vh;
+    min-height: 75vh;
     display: flex;
     flex-direction: column;
     margin: 10vh 0 10vh;
@@ -53,6 +53,19 @@
     color: #666666;
     font-family: 'Alike Angular', serif;
     font-size: 0.9em;
+}
+
+.resource-files_file a {
+    color: #666666;
+    font-family: 'Alike Angular', serif;
+}
+
+.resource-files_file a::before {
+    content: url(../../assets/acrobatreader.svg);
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin-right: 7.5px;
 }
 
 

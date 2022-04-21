@@ -6,6 +6,9 @@ import './Resources.css';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import weadhclogo from "../../assets/westendadhc-logo.png";
+import waiverservices from "../../assets/waiverservices.pdf";
+import serviceplan from "../../assets/serviceplan.pdf";
+import applicationintake from "../../assets/applicationintake.pdf";
 
 
 
@@ -122,6 +125,8 @@ class Resources extends React.Component {
                                         This file can be downloaded and filled out by your physician. This must be turned into our offices.
                                     </p>
 
+                                    <a href={waiverservices} target="_blank" rel="noreferrer" download>Waiver Services Form</a>
+
                                 </article>
 
                                 <article className="resource-files_file">
@@ -134,6 +139,8 @@ class Resources extends React.Component {
                                         This file can be downloaded and filled out by the client. This must be turned into our offices.
                                     </p>
 
+                                    <a href={serviceplan} target="_blank" rel="noreferrer" download>Service Plan Form</a>
+
                                 </article>
 
                                 <article className="resource-files_file">
@@ -145,6 +152,8 @@ class Resources extends React.Component {
                                     <p>
                                         This file can be downloaded and filled out by the client. This must be turned into our offices.
                                     </p>
+
+                                    <a href={applicationintake} target="_blank" rel="noreferrer" download>Application Intake Form</a>
 
                                 </article>
 
