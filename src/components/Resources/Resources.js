@@ -103,6 +103,54 @@ class Resources extends React.Component {
                     </nav>
 
                     <main className="resources-content">
+
+                        <div className="resource-list">
+
+                            <h1 className="resource-list_headline">
+                                Resource Files
+                            </h1>
+
+                            <section className="resource-files">
+
+                                <article className="resource-files_file">
+
+                                    <h1>
+                                        Waiver Services Physician's Recommendation
+                                    </h1>
+
+                                    <p>
+                                        This file can be downloaded and filled out by your physician. This must be turned into our offices.
+                                    </p>
+
+                                </article>
+
+                                <article className="resource-files_file">
+
+                                    <h1>
+                                        Service Plan Participant Authorization Form
+                                    </h1>
+
+                                    <p>
+                                        This file can be downloaded and filled out by the client. This must be turned into our offices.
+                                    </p>
+
+                                </article>
+
+                                <article className="resource-files_file">
+
+                                    <h1>
+                                        Application Intake Participant Authorization Form
+                                    </h1>
+
+                                    <p>
+                                        This file can be downloaded and filled out by the client. This must be turned into our offices.
+                                    </p>
+
+                                </article>
+
+                            </section>
+
+                        </div>
                         
                     </main>
 

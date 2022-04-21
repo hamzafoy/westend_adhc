@@ -2,6 +2,59 @@
 ::::::::::  Mobile Layout CSS  :::::::::::
 ::::::::::::::::::::::::::::::::::::::::*/
 
+.resources-content {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 10vh 0 10vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.resource-list_headline {
+    margin: 0 0 7.5vh;
+    color: #5a5a5a;
+    font-family: 'Cutive', serif;
+    font-size: 1.5em;
+    font-weight: 600;
+    text-decoration: underline 3.75px;
+    text-underline-offset: 1.25vh;
+    text-align: center;
+}
+
+.resource-files {
+    display: flex;
+    flex-direction: column;
+}
+
+.resource-files_file {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2.75vh 4.5vw;
+    padding: 5vh 4.5vw;
+    background-color: #f4cea0;
+    border: 6px #efbb7d double;
+}
+
+.resource-files_file h1 {
+    margin: 1vh 0 1.5vh;
+    color: #5a5a5a;
+    font-family: 'Cutive', serif;
+    font-size: 1.05em;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    text-underline-offset: 0;
+}
+
+.resource-files_file p {
+    padding: 0 1.75vw;
+    color: #666666;
+    font-family: 'Alike Angular', serif;
+    font-size: 0.9em;
+}
+
 
 
 /*::::::::::::::::::::::::::::::::::::::::
@@ -9,6 +62,27 @@
 ::::::::::::::::::::::::::::::::::::::::*/
 
 @media (min-width: 1100px) {
+
+    .resource-list_headline {
+        font-size: 2.5em;
+    }
+
+    .resource-files {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .resource-files_file {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 27%;
+        margin: 3.75vh 1vw;
+        padding: 3vh 1.5vw;
+    }
 
 }
 
