@@ -105,7 +105,83 @@ class Services extends React.Component {
 
                     <main className="services-content">
 
-                        <Form/>
+                        <div className="services-list">
+
+                            <h1 className="services-list_headline">
+
+                                Our Services
+
+                            </h1>
+
+                            <section className="services-list_options">
+
+                                <article className="services-list_option">
+
+                                    <h1>
+                                        Adult Daycare
+                                    </h1>
+
+                                    <p>
+                                        Clients can choose to spend time in our facilities under the care &amp; supervision of our caretakers.
+                                    </p>
+
+                                </article>
+
+                                <article className="services-list_option">
+
+                                    <h1>
+                                        Home Attendant Care
+                                    </h1>
+
+                                    <p>
+                                        Clients more comfortable in their own homes can opt for caregivers to visit &amp; attend to their needs at home!
+                                    </p>
+
+                                </article>
+
+                                <article className="services-list_option">
+
+                                    <h1>
+                                        Case Management
+                                    </h1>
+
+                                    <p>
+                                        Our case management services include, but is not limited to, assessments including an interview with the client &amp; 
+                                        assistance in developing and implementing a medical care plan with healthcare providers, family, and our employees. 
+                                        We promote cost-effective care &amp; work to respect family needs, client's sensitivities, &amp; cultural competency.
+                                    </p>
+
+                                </article>
+
+                                <article className="services-list_option">
+
+                                    <h1>
+                                        Non-Medical Transportation
+                                    </h1>
+
+                                    <p>
+                                        We provide transportation to doctor &amp; therapy appointments, hospital or outpatient facilities, prescription pick-ups 
+                                        as well as grocery shopping &amp; other errands, and we provide transportation to connect you with loved ones, friends, 
+                                        &amp; events. We provide disability assistance throughout trips, but do <em>NOT</em> act as an ambulance service.
+                                    </p>
+
+                                </article>
+
+                            </section>
+
+                        </div>
+
+                        <section className="form-container">
+
+                        <h1 className="form-container_headline">
+
+                            Request Services Form
+
+                        </h1>
+
+                            <Form marginBottom="10vh"/>
+
+                        </section>
 
                     </main>
 
