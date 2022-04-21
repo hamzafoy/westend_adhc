@@ -115,6 +115,7 @@ h1 {
     justify-content: space-between;
     padding: 2.5vh 0;
     background-color: #cce6a2;
+    color: #666666;
 }
 
 .footer_content {
@@ -157,6 +158,10 @@ h1 {
     background-color: #8FC73C;
     color: #FAE1B3;
     text-align: center;
+}
+
+.footer_comms {
+    color: #666666;
 }
 
 

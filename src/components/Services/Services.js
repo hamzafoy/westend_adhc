@@ -219,11 +219,11 @@ class Services extends React.Component {
                             </p>
 
                             <p>
-                                <a className="navigation_comms" href="tel:+15026537220" target="_blank"rel="noreferrer">(502) 653-7220</a>
+                                <a className="footer_comms" href="tel:+15026537220" target="_blank"rel="noreferrer">(502) 653-7220</a>
                             </p>
 
                             <p>
-                                <a className="navigation_comms" href="mailto:info@westendadhc.com" target="_blank" rel="noreferrer">info@westendadhc.com</a>
+                                <a className="footer_comms" href="mailto:info@westendadhc.com" target="_blank" rel="noreferrer">info@westendadhc.com</a>
                             </p>
                             
                             <p>
