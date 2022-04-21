@@ -39,6 +39,13 @@ class Form extends React.Component {
             .then(response => {
                 console.log(response);
             })
+
+        this.setState({
+            name: '',
+            email: '',
+            phone_number: '',
+            service_requested: ''
+        });
     }
 
     render() {
