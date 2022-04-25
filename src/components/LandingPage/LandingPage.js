@@ -147,8 +147,8 @@ class LandingPage extends React.Component {
 
                         <p>
                             We are passionate about assisting adults at their homes as long as possible by 
-                            offering companionship &amp; healthcare monitoring, thus preventing or delaying 
-                            institutionalization.
+                            offering assistance with activities of daily living, personal care, medical appointments 
+                            &amp; medication reminders, thus preventing or delaying institutionalization.
                         </p>
 
                     </main>

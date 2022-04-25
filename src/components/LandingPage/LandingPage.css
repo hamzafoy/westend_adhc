@@ -55,6 +55,7 @@ h1 {
     color: #5a5a5a;
     font-family: 'Alike Angular', serif;
     font-size: 1.75em;
+    font-style: italic;
     font-weight: 700;
     text-align: center;
     background-color: #cce6a2;
@@ -156,6 +157,7 @@ h1 {
     margin-block-end: 0;
     padding: 1.75vh 0;
     background-color: #8FC73C;
+    font-size: 1.75em;
     color: #FAE1B3;
     text-align: center;
 }

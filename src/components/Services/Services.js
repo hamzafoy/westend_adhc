@@ -134,7 +134,7 @@ class Services extends React.Component {
                                     </h1>
 
                                     <p>
-                                        Clients more comfortable in their own homes can opt for caregivers to visit &amp; attend to their needs at home!
+                                        Clients more comfortable in their own homes can have caregivers visit to attend to their needs at home!
                                     </p>
 
                                 </article>
