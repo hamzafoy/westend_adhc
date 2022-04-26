@@ -115,6 +115,15 @@ class Careers extends React.Component {
                         current job openings below.
                         </p>
 
+                        <p className='careers-content_info'><em>
+                        The employer is an "equal opportunity employer." The employer will not 
+                        discriminate and will take measures to ensure against 
+                        discrimination in employment, recruitment, advertisements for employment, 
+                        compensation, termination, upgrading, promotions, and other conditions of 
+                        employment against any employee or job applicant on the bases of race, creed, 
+                        color, national origin, or sex.
+                        </em></p>
+
                         <div className="careers-content_cards">
 
                             <article className="careers-content__card">
