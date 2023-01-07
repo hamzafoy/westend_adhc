@@ -187,10 +187,14 @@ class LandingPage extends React.Component {
                             </p>
 
                             <p>
+                                <a className="footer_comms" href="tel:+15022353420" target="_blank"rel="noreferrer">(502) 235-3420</a>
+                                &nbsp;&nbsp;
                                 <a className="footer_comms" href="tel:+15026537220" target="_blank"rel="noreferrer">(502) 653-7220</a>
                             </p>
 
                             <p>
+                                <a className="footer_comms" href="mailto:hassanmuya@westendadhc.com" target="_blank" rel="noreferrer">hassanmuya@westendadhc.com</a>
+                                &nbsp;&nbsp;
                                 <a className="footer_comms" href="mailto:info@westendadhc.com" target="_blank" rel="noreferrer">info@westendadhc.com</a>
                             </p>
                             
